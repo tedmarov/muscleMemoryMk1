@@ -11,9 +11,9 @@
 
 
 const favoriteBreed = (breedName) => {
-    const breedName = 
+    const sentence
 
-    return "My favorite breed of dog is " ${breedName}
+    return `My favorite breed of dog is ${breedName}`
 }
 
-const 
+console.log(favoriteBreed("schnauzer"))
