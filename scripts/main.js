@@ -1,9 +1,11 @@
 console.log("Welcome to the main module. To access other parts, you need to mod the source.")
 
 const favoriteBreed = (breedName) => {
-    const sentence = `My favorite breed of dog is ${breedName}`
-
+    if (breedName==="schnauzer") 
+        const sentence = `My favorite breed of dog is ${breedName}`
+    else if (breedName==="meow")
+        const sentence = "I like cats"
     return sentence
 }
 
-console.log(favoriteBreed("schnauzer"))
+console.log('When it comes to pets, '&favoriteBreed("schnauzer"))
